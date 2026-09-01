@@ -1,0 +1,65 @@
+{
+  "name": "pastel-dreams-theme-pack",
+  "displayName": "Pastel Dreams Theme Pack by Polina",
+  "description": "A collection of cozy, dreamy pastel themes: lofi Ghibli forest dusk, a Kuromi pastel-goth magic shop, two light floral themes (Garden Bloom, Blue Bloom), a Garden/Ghibli hybrid (Ghibli Bloom), and a twilight mix of all five (Dusk Bloom).",
+  "version": "0.5.0",
+  "publisher": "PolinaShcherbina",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "ghibli",
+    "kuromi",
+    "lofi",
+    "pastel",
+    "dreamy",
+    "dark theme",
+    "cozy",
+    "pastel goth",
+    "light theme",
+    "floral"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ghibli Dreams",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ghibli-dreams-color-theme.json"
+      },
+      {
+        "label": "Kuromi Magic Shop",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kuromi-magic-shop-color-theme.json"
+      },
+      {
+        "label": "Garden Bloom",
+        "uiTheme": "vs",
+        "path": "./themes/garden-bloom-color-theme.json"
+      },
+      {
+        "label": "Blue Bloom",
+        "uiTheme": "vs",
+        "path": "./themes/blue-bloom-color-theme.json"
+      },
+      {
+        "label": "Ghibli Bloom",
+        "uiTheme": "vs",
+        "path": "./themes/ghibli-bloom-color-theme.json"
+      },
+      {
+        "label": "Dusk Bloom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dusk-bloom-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1E1A26",
+    "theme": "dark"
+  },
+  "license": "MIT"
+}
